@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; charset=windows-1250">
+<title>Test</title>
+	<style>
+		.button{
+			background-color: black;
+			color: lime;
+			display: inline-block;
+			font-size: 20px;
+			margin: 12px;
+		}
+	</style>
+
+</head>
+<body style="background-color:black;">
+
+	<form class="button" method="get" action="/add">
+		<table>
+			<tr>
+				<td>component1</td>
+				<td><input class="button" type="number" size="50" name="component1">
+				</td>
+			</tr>
+			<tr>
+				<td>component2</td>
+				<td><input class="button" type="number" size="50" name="component2">
+				</td>
+			</tr>
+			<tr>
+				<td><button class="button" type="submit" formmethod="get" formaction="/Check/add">GET</button></td>
+				<td><button class="button" type="submit" formmethod="post" formaction="/Check/add">POST</button></td>
+			</tr>
+			<tr>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
