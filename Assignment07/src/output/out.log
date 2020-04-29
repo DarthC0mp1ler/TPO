@@ -1,0 +1,207 @@
+Using CATALINA_BASE:   "C:\Users\Asus\.IntelliJIdea2018.3\system\tomcat\Tomcat_9_0_33_Assignment07"
+Using CATALINA_HOME:   "C:\Program Files\Apache Software Foundation\Tomcat 9.0"
+Using CATALINA_TMPDIR: "C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp"
+Using JRE_HOME:        "C:\Program Files\Java\jdk1.8.0_211"
+Using CLASSPATH:       "C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\tomcat-juli.jar"
+29-Apr-2020 14:29:32.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.33
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2020 09:31:38 UTC
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.33.0
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_211\jre
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Apr-2020 14:29:32.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Asus\.IntelliJIdea2018.3\system\tomcat\Tomcat_9_0_33_Assignment07
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\Apache Software Foundation\Tomcat 9.0
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Asus\.IntelliJIdea2018.3\system\tomcat\Tomcat_9_0_33_Assignment07\conf\logging.properties
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+29-Apr-2020 14:29:32.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+29-Apr-2020 14:29:32.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Apr-2020 14:29:32.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Apr-2020 14:29:32.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Apr-2020 14:29:32.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Asus\.IntelliJIdea2018.3\system\tomcat\Tomcat_9_0_33_Assignment07
+29-Apr-2020 14:29:32.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0
+29-Apr-2020 14:29:32.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp
+29-Apr-2020 14:29:32.254 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;;.]
+29-Apr-2020 14:29:32.506 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Apr-2020 14:29:32.534 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [484] milliseconds
+29-Apr-2020 14:29:32.573 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Apr-2020 14:29:32.573 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.33]
+29-Apr-2020 14:29:32.583 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Apr-2020 14:29:32.594 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [58] milliseconds
+Connected to server
+29-Apr-2020 14:29:34.263 SEVERE [http-nio-8080-exec-7] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:34.264 SEVERE [http-nio-8080-exec-7] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:35.261 SEVERE [http-nio-8080-exec-10] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:35.262 SEVERE [http-nio-8080-exec-10] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:36.262 SEVERE [http-nio-8080-exec-2] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:36.263 SEVERE [http-nio-8080-exec-2] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:37.261 SEVERE [http-nio-8080-exec-1] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:37.262 SEVERE [http-nio-8080-exec-1] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:38.264 SEVERE [http-nio-8080-exec-5] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:38.266 SEVERE [http-nio-8080-exec-5] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:39.263 SEVERE [http-nio-8080-exec-7] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:39.264 SEVERE [http-nio-8080-exec-7] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:40.264 SEVERE [http-nio-8080-exec-10] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:40.264 SEVERE [http-nio-8080-exec-10] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:41.265 SEVERE [http-nio-8080-exec-2] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:41.267 SEVERE [http-nio-8080-exec-2] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:42.262 SEVERE [http-nio-8080-exec-1] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:42.262 SEVERE [http-nio-8080-exec-1] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:42.587 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\manager]
+29-Apr-2020 14:29:42.629 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\manager] has finished in [42] ms
+29-Apr-2020 14:29:43.262 SEVERE [http-nio-8080-exec-6] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:43.263 SEVERE [http-nio-8080-exec-6] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:44.268 SEVERE [http-nio-8080-exec-8] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:44.270 SEVERE [http-nio-8080-exec-8] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+29-Apr-2020 14:29:45.265 SEVERE [http-nio-8080-exec-9] Implementation.listeners.RequestListener.requestInitialized 
+>>>>REQUEST INITIALIZED
+	{
+		localhost:8080 HTTP/1.1
+		Host: localhost
+		Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+		Content-Length: 8
+
+		date
+
+	}
+29-Apr-2020 14:29:45.267 SEVERE [http-nio-8080-exec-9] Implementation.listeners.RequestListener.requestDestroyed <<<<REQUEST DESTROYED: 
+org.apache.catalina.core.ApplicationContextFacade@ec854ea
+Using CATALINA_BASE:   "C:\Users\Asus\.IntelliJIdea2018.3\system\tomcat\Tomcat_9_0_33_Assignment07"
+Using CATALINA_HOME:   "C:\Program Files\Apache Software Foundation\Tomcat 9.0"
+Using CATALINA_TMPDIR: "C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp"
+Using JRE_HOME:        "C:\Program Files\Java\jdk1.8.0_211"
+Using CLASSPATH:       "C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\tomcat-juli.jar"
+29-Apr-2020 14:29:45.771 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Apr-2020 14:29:45.771 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Apr-2020 14:29:45.944 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Apr-2020 14:29:45.946 SEVERE [main] Implementation.listeners.RequestListener.contextDestroyed <<<<CONTEXT DESTROYEDjavax.servlet.ServletContextEvent[source=org.apache.catalina.core.ApplicationContextFacade@ec854ea]
+29-Apr-2020 14:29:45.958 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Apr-2020 14:29:45.959 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Disconnected from server
