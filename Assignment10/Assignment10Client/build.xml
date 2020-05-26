@@ -1,0 +1,37 @@
+<project default="generate-proxy">
+
+	<path id="jars">
+		<fileset dir="lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport" classpathref="jars"/>
+
+	<property name="hostname" value="localhost" />
+	<property name="port" value="8080" />
+	<property name="host.port" value="${hostname}:${port}" />
+
+	<property name="common.src" value="common" />
+
+	<property name="package" value="person" />
+
+	<property name="src" value="src/main/java" />
+	<property name="packagep" value="${package}.proxy" />
+
+	<target name="generate-proxy">
+		<echo message=" *" />
+		<echo message=" *" />
+		<echo message=" * NOTE: copy provided 'jaxp.properties' file to '${java.home}\lib' directory prior to running 'generate-proxy' target" />
+		<echo message=" *" />
+		<echo message=" *" />
+
+		<wsimport
+				wsdl="http://${host.port}/person?wsdl"
+				sourcedestdir="${src}"
+				package="${packagep}"
+				verbose="true"
+				xnocompile="true" />
+	</target>
+
+</project>
