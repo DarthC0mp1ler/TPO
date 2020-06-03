@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="project">
+            <attribute name="default">
+                <data type="NCName"/>
+            </attribute>
+            <element name="path">
+                <attribute name="id">
+                    <data type="NCName"/>
+                </attribute>
+                <element name="fileset">
+                    <attribute name="dir">
+                        <data type="NCName"/>
+                    </attribute>
+                    <element name="include">
+                        <attribute name="name"/>
+                    </element>
+                </element>
+            </element>
+            <oneOrMore>
+                <choice>
+                    <element name="property">
+                        <optional>
+                            <attribute name="location">
+                                <data type="anyURI"/>
+                            </attribute>
+                        </optional>
+                        <attribute name="name">
+                            <data type="NCName"/>
+                        </attribute>
+                        <optional>
+                            <attribute name="value"/>
+                        </optional>
+                    </element>
+                    <element name="taskdef">
+                        <attribute name="classname">
+                            <data type="NCName"/>
+                        </attribute>
+                        <attribute name="classpathref">
+                            <data type="NCName"/>
+                        </attribute>
+                        <attribute name="name">
+                            <data type="NCName"/>
+                        </attribute>
+                        <element name="classpath">
+                            <element name="pathelement">
+                                <attribute name="location"/>
+                            </element>
+                        </element>
+                    </element>
+                </choice>
+            </oneOrMore>
+            <element name="target">
+                <attribute name="name">
+                    <data type="NCName"/>
+                </attribute>
+                <oneOrMore>
+                    <element name="echo">
+                        <attribute name="message"/>
+                    </element>
+                </oneOrMore>
+                <element name="wsimport">
+                    <attribute name="package"/>
+                    <attribute name="sourcedestdir"/>
+                    <attribute name="verbose">
+                        <data type="boolean"/>
+                    </attribute>
+                    <attribute name="wsdl"/>
+                    <attribute name="xnocompile">
+                        <data type="boolean"/>
+                    </attribute>
+                </element>
+            </element>
+        </element>
+    </start>
+</grammar>
