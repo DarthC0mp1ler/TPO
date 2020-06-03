@@ -1,4 +1,5 @@
 # TPO
+Distributed programming technologies 
 PJWSTK TPO course 
 s19204
 
